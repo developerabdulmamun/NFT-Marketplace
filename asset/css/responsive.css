@@ -1,0 +1,32 @@
+/* Medium Device Responsive Start */
+@media (max-width: 991px){
+    /* Navigation Part Start */
+    .navbar{
+        padding: 15px 50px !important;
+        height: 54px !important;
+    }
+    .navbar-brand{
+        width: 182.56px;
+        height: 24px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    /* Navigation Part End */
+}
+/* Medium Device Responsive End */
+/* Small Device Responsive Start */
+@media (max-width: 398px){
+    .navbar{
+        padding: 15px 30px !important;
+        height: 54px !important;
+    }
+    .navbar-brand{
+        width: 182.56px;
+        height: 24px;
+    }
+}
+/* Small Device Responsive End */
