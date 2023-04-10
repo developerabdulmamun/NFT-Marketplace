@@ -20,4 +20,142 @@ h1,h2,h3,h4,h5,h6,p,a,i{
     margin: 0 !important;
     padding: 0 !important;
 }
+body{
+    background: #2B2B2B;
+}
+/* Buttons Common CSS Start */
+/* Primary Button */
+.primary_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: 72px;
+    background: #A259FF;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.primary_btn:hover{
+    background: transparent;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+}
+.primary_btn a{
+    display: flex;
+    gap: 12px;
+    font-family: var(--Work-sans);
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+.primary_btn a img{
+    width: 20px;
+    height: 20px;
+}
+/* Secondary Button */
+.secondary_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+    height: 60px;
+    background: #A259FF;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.secondary_btn:hover{
+    background: transparent;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+}
+.secondary_btn a{
+    display: flex;
+    gap: 12px;
+    font-family: var(--Work-sans);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+.secondary_btn a img{
+    width: 20px;
+    height: 20px;
+}
+/* Tertiary Button */
+.tartiary_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+    height: 46px;
+    background: #A259FF;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.tartiary_btn:hover{
+    background: transparent;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+}
+.tartiary_btn a{
+    display: flex;
+    gap: 12px;
+    font-family: var(--Work-sans);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+.tartiary_btn a img{
+    width: 20px;
+    height: 20px;
+}
+/* Buttons Common CSS Start */
 /* Common CSS End */
+/* Header Section Start */
+header{
+    height: 100vh;
+    position: relative;
+}
+/* Navigation Part Start */
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+nav .nav_logo{
+    width: 243.41px;
+    height: 32px;
+}
+nav ul{
+    align-items: center;
+    gap: 10px;
+}
+nav ul li a{
+    font-family: var(--Work-sans);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 20px !important;
+    border-radius: 20px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #FFFFFF;
+}
+/* Navigation Part End */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
+/* Header Section Start */
+/* Header Section End */
