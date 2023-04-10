@@ -114,7 +114,10 @@ body{
     width: 20px;
     height: 20px;
 }
-/* Buttons Common CSS Start */
+/* Buttons Common CSS End */
+section{
+    padding: 80px 0;
+}
 /* Common CSS End */
 /* Header Section Start */
 header{
@@ -149,6 +152,92 @@ nav ul li a{
     color: #FFFFFF;
 }
 /* Navigation Part End */
+/* Hero Part Start */
+.hero{
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .hero_text h1{
+    font-family: var(--Work-sans);
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.hero .hero_text p{
+    margin: 20px 0 40px !important;
+    font-family: var(--Work-sans);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.hero .hero_text .hero_counter{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.hero .hero_text .hero_counter div{
+    width: 150px;
+    height: 77px;
+}
+.hero .hero_text .hero_counter div h2{
+    font-family: var(--space-mono);
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.hero .hero_text .hero_counter div p{
+    font-family: var(--Work-sans);
+    font-weight: 400;
+    font-size: 23.99px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.hero .hero_card{
+    width: 510px;
+    height: 510px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.hero .hero_card .hero_image{
+    width: 510px;
+    height: 401px;
+}
+.hero .hero_card .card_text{
+    background: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 22px 20px;
+}
+.hero .hero_card .card_text h3{
+    font-family: var(--Work-sans);
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.hero .hero_card .card_text p{
+    font-family: var(--Work-sans);
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.hero .hero_card .card_text p img{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+/* Hero Part End */
 /* Header Section End */
 /* Header Section Start */
 /* Header Section End */
