@@ -1,0 +1,23 @@
+/* Common CSS Start */
+:root{
+    --Work-sans: 'Work Sans', sans-serif;
+    --space-mono: 'Space Mono', monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,i{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* Common CSS End */
